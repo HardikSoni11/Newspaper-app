@@ -39,11 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
-    #3rd party
+    # 3rd party
     'crispy_forms',
     
+    # local
     'users.apps.UsersConfig',
     'pages.apps.PagesConfig',
+    'articles.apps.ArticlesConfig',
 ]
 
 AUTH_USER_MODEL = 'users.CustomUser'
@@ -114,7 +116,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
